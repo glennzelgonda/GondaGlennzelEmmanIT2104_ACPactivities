@@ -1,0 +1,2 @@
+multiples_of_nine = tuple(range(9, 90, 9))
+print("Sliced Tuple: ", multiples_of_nine [5:8])
