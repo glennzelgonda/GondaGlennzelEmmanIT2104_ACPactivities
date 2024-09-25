@@ -1,0 +1,18 @@
+while True:
+    purchase_amount = float(input("Enter the total purchase amount: "))
+    print(f"Initial Purchase Amount: {purchase_amount:.2f}")
+    
+    if purchase_amount > 5000:
+        discount = purchase_amount * 0.10  # 10% discount
+    else:
+        discount = purchase_amount * 0.05  # 5% discount
+
+    final_price = purchase_amount - discount
+    
+    print(f"Discount: {discount:.2f}")
+    print(f"Final Price: {final_price:.2f}")
+    
+    retry = input("Do you want to try again? (yes/no): ").lower()
+    if retry != "no":
+        print("Thank you!")
+        break
