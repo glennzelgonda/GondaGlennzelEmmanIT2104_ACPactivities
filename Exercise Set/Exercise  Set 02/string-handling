@@ -1,0 +1,4 @@
+color1 = input (f"Enter the first color: ")
+color2 = input (f"Enter the second color: ")
+color3 = input (f"Enter the third color: ")
+print (f"{color1}, {color2}, {color3} created a new color!")
